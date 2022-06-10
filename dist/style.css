@@ -59,10 +59,6 @@ body {
     height: 50px;
 }
 
-.header img:hover {
-    cursor: pointer;
-}
-
 .nav {
     margin-left: auto;
     display: flex;
