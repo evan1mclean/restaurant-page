@@ -1,6 +1,7 @@
 function homePage() {
     const home = document.createElement('div');
     home.classList.add('home-page');
+    home.classList.add('main-content');
 
     const header = document.createElement('h1');
     header.textContent = 'Salt Wharf';

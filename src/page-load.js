@@ -39,6 +39,7 @@ function initialPageLoad() {
     const home = homePage();
     content.appendChild(header);
     content.appendChild(home);
+    
 }
 
 export default initialPageLoad;
