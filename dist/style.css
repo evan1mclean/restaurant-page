@@ -156,3 +156,28 @@ body {
 .contact-container img {
     max-width: 100%;
 }
+
+@media screen and (max-width: 650px) {
+    .home-page {
+        text-align: center;
+    }
+
+    .home-page h1 {
+        font-size: 4rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .menu-container {
+        grid-template-columns: 1fr;
+        width: 95%;
+    }
+
+    .menu-header {
+        grid-column: 1/2;
+    }
+
+    .contact-container {
+        width: 95%;
+    }
+}
